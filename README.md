@@ -8,7 +8,7 @@
 本项目的亮点：
 
  * 功能齐全，页面丰富，实现了小商城的大部分功能
- * 前端仿天猫2017页面，基于原生 CSS（前台）、Bootstrap（后台）、Jquery、Bootstrap Js 构建
+ * 前端仿天猫页面，基于原生 CSS（前台）、Bootstrap（后台）、Jquery、Bootstrap Js 构建
  * 本项目为 Maven 项目，后端使用 Spring 4 + SpringMVC 4 + Myba
  tis 3.4 + aspectj 1.8
  * 实现了一个 **通用mapper**，免写 SQL，可进行单表和多表关联查询，自动插入一对多/多对一对象（注解配置关联对象，结合 MyBatis Generator ）
