@@ -33,8 +33,9 @@ public class FileUtil implements ServletContextAware {
         Map<String, String> config = configService.map();
         String relativeFolderPath = config.get("path_" + type + "_img");
         File imageFolder = new File(servletContext.getRealPath(relativeFolderPath));
-        if (!imageFolder.exists())
+        if (!imageFolder.exists()) {
             imageFolder.mkdirs();
+        }
         File imageFile = new File(imageFolder, imgName);
         uploadedImageFile.getImage().transferTo(imageFile);
     }
