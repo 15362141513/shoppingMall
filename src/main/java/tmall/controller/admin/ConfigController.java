@@ -10,6 +10,9 @@ import tmall.pojo.User;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
+/**
+ * @author adminCJW
+ */
 @Controller
 @RequestMapping("/admin/config")
 public class ConfigController extends AdminBaseController {

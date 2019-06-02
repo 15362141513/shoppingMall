@@ -14,6 +14,9 @@ import tmall.util.UploadedImageFile;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
+/**
+ * @author adminCJW
+ */
 @Controller
 @RequestMapping("/admin/category")
 public class CategoryController extends AdminBaseController {

@@ -9,6 +9,9 @@ import tmall.util.Pagination;
 
 import java.util.List;
 
+/**
+ * @author adminCJW
+ */
 @Controller
 @RequestMapping("/admin/user")
 public class UserController extends AdminBaseController {

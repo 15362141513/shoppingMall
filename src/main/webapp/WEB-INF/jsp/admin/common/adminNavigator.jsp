@@ -20,7 +20,7 @@
                 <li class="${light==4?'active':''}"><a href="../config/edit">网站设置</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class=""><a href="../../../" target="_blank" >网站前台</a></li>
+                <li class=""><a href="../../../tmall" target="_blank" >网站前台</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
